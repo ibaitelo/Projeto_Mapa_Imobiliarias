@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c7b9a002d9be596916c187d233c24167 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c7b9a002d9be596916c187d233c24167" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c7b9a002d9be596916c187d233c24167 = L.map(
+                "map_c7b9a002d9be596916c187d233c24167",
+                {
+                    center: [-23.55052, -46.633308],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec34fc437675f8d6f42b5f26d7193030 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ec34fc437675f8d6f42b5f26d7193030.addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+            var marker_2eeffe99038a764c07a31c3e3b68f69e = L.marker(
+                [-23.6066189, -46.69509679999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_fd3c21d3bb7fea006aafd67fbc22b677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8475b252a286756ed5a94d0c34db429d = $(`<div id="html_8475b252a286756ed5a94d0c34db429d" style="width: 100.0%; height: 100.0%;">Nome: Dalí NYC Berrini Residence<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_fd3c21d3bb7fea006aafd67fbc22b677.setContent(html_8475b252a286756ed5a94d0c34db429d);
+            
+        
+
+        marker_2eeffe99038a764c07a31c3e3b68f69e.bindPopup(popup_fd3c21d3bb7fea006aafd67fbc22b677)
+        ;
+
+        
+    
+    
+            var marker_94323424672009b804636b90585a1519 = L.marker(
+                [-23.5364874, -46.7184926],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_5e6d5b342591f23413ad09dbfde34d8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc364ac6512d84b01a90955348e95e2 = $(`<div id="html_fbc364ac6512d84b01a90955348e95e2" style="width: 100.0%; height: 100.0%;">Nome: ADCIP CONDOMÍNIOS<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_5e6d5b342591f23413ad09dbfde34d8f.setContent(html_fbc364ac6512d84b01a90955348e95e2);
+            
+        
+
+        marker_94323424672009b804636b90585a1519.bindPopup(popup_5e6d5b342591f23413ad09dbfde34d8f)
+        ;
+
+        
+    
+    
+            var marker_1a18d03b29f0838105aa604fa88e4bbf = L.marker(
+                [-23.5561161, -46.6437112],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_230f4f11c9eead86fe72a998267dcab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69319155fa538461faf98086e17e2654 = $(`<div id="html_69319155fa538461faf98086e17e2654" style="width: 100.0%; height: 100.0%;">Nome: Republica Kim<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_230f4f11c9eead86fe72a998267dcab9.setContent(html_69319155fa538461faf98086e17e2654);
+            
+        
+
+        marker_1a18d03b29f0838105aa604fa88e4bbf.bindPopup(popup_230f4f11c9eead86fe72a998267dcab9)
+        ;
+
+        
+    
+    
+            var marker_99d14d9f54d13ce94b8df30ed7afbf27 = L.marker(
+                [-23.462785, -46.53736199999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_c8f42b00514cbbbef30dbe3788fb31e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a87f0e41908482089ea141b8fc10b948 = $(`<div id="html_a87f0e41908482089ea141b8fc10b948" style="width: 100.0%; height: 100.0%;">Nome: Steiner Properties - Steiner<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_c8f42b00514cbbbef30dbe3788fb31e1.setContent(html_a87f0e41908482089ea141b8fc10b948);
+            
+        
+
+        marker_99d14d9f54d13ce94b8df30ed7afbf27.bindPopup(popup_c8f42b00514cbbbef30dbe3788fb31e1)
+        ;
+
+        
+    
+    
+            var marker_c3425f17060d59ee9b2c161d1e9be29c = L.marker(
+                [-23.4661829, -46.5289343],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_cdb0b6db9c605f751cb3f7618c4e501a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_280b0c4bd1f580fc23c43156c632153b = $(`<div id="html_280b0c4bd1f580fc23c43156c632153b" style="width: 100.0%; height: 100.0%;">Nome: Imobiliária Nosso Lar<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_cdb0b6db9c605f751cb3f7618c4e501a.setContent(html_280b0c4bd1f580fc23c43156c632153b);
+            
+        
+
+        marker_c3425f17060d59ee9b2c161d1e9be29c.bindPopup(popup_cdb0b6db9c605f751cb3f7618c4e501a)
+        ;
+
+        
+    
+    
+            var marker_5db316ed888c357e2e654645f61dc7e4 = L.marker(
+                [-23.5708508, -46.6414329],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_8cdd71d794381b37cc7ba4a175e6f665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b602029dd3483556e2160f67075c2e3 = $(`<div id="html_9b602029dd3483556e2160f67075c2e3" style="width: 100.0%; height: 100.0%;">Nome: Residential Paulista<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_8cdd71d794381b37cc7ba4a175e6f665.setContent(html_9b602029dd3483556e2160f67075c2e3);
+            
+        
+
+        marker_5db316ed888c357e2e654645f61dc7e4.bindPopup(popup_8cdd71d794381b37cc7ba4a175e6f665)
+        ;
+
+        
+    
+    
+            var marker_7a7bedda540780693f8f4158b12db8bb = L.marker(
+                [-23.6144871, -46.6890661],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_80c990fed0bbdd8aa8318f5d547ad8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f5de70bbd90e8cd2fe629f6b1347ac3 = $(`<div id="html_2f5de70bbd90e8cd2fe629f6b1347ac3" style="width: 100.0%; height: 100.0%;">Nome: Flat no Brooklin 121<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_80c990fed0bbdd8aa8318f5d547ad8d4.setContent(html_2f5de70bbd90e8cd2fe629f6b1347ac3);
+            
+        
+
+        marker_7a7bedda540780693f8f4158b12db8bb.bindPopup(popup_80c990fed0bbdd8aa8318f5d547ad8d4)
+        ;
+
+        
+    
+    
+            var marker_fcd1f839f23ec4d545e996eccd78a083 = L.marker(
+                [-23.5655554, -46.65420419999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_7f173c8cea4e641957f116428a447d84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_367a156c860448e882392edbcff1ea24 = $(`<div id="html_367a156c860448e882392edbcff1ea24" style="width: 100.0%; height: 100.0%;">Nome: Fernandez Mera Negócios Imobiliários Ltda<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_7f173c8cea4e641957f116428a447d84.setContent(html_367a156c860448e882392edbcff1ea24);
+            
+        
+
+        marker_fcd1f839f23ec4d545e996eccd78a083.bindPopup(popup_7f173c8cea4e641957f116428a447d84)
+        ;
+
+        
+    
+    
+            var marker_a5c3dd53a3c3b47548b268da1940ac1c = L.marker(
+                [-23.5945069, -46.6895385],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_e6a84890011aaa91b0ab1183411b5328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a81c48b33e0d2f3aa5580bc33e9f300 = $(`<div id="html_0a81c48b33e0d2f3aa5580bc33e9f300" style="width: 100.0%; height: 100.0%;">Nome: Itaim Flat 20º Andar - PLUS<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_e6a84890011aaa91b0ab1183411b5328.setContent(html_0a81c48b33e0d2f3aa5580bc33e9f300);
+            
+        
+
+        marker_a5c3dd53a3c3b47548b268da1940ac1c.bindPopup(popup_e6a84890011aaa91b0ab1183411b5328)
+        ;
+
+        
+    
+    
+            var marker_7c9f08014c26327768db0e3ee2e0c08c = L.marker(
+                [-23.5972519, -46.72509909999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_6b292ea266c73299f975957cded4aa87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_295fe1b80cb7c0c30045d2bbfbc5ecb4 = $(`<div id="html_295fe1b80cb7c0c30045d2bbfbc5ecb4" style="width: 100.0%; height: 100.0%;">Nome: Aricanduva<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_6b292ea266c73299f975957cded4aa87.setContent(html_295fe1b80cb7c0c30045d2bbfbc5ecb4);
+            
+        
+
+        marker_7c9f08014c26327768db0e3ee2e0c08c.bindPopup(popup_6b292ea266c73299f975957cded4aa87)
+        ;
+
+        
+    
+    
+            var marker_b1968e2450ce639c9f551a2b2c95bb14 = L.marker(
+                [-23.4694723, -46.521071],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_257306e414ff014637dc225d150d2f79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efad5d5271561da5942cc3796336faff = $(`<div id="html_efad5d5271561da5942cc3796336faff" style="width: 100.0%; height: 100.0%;">Nome: Salmen Imóveis e Condomínios<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_257306e414ff014637dc225d150d2f79.setContent(html_efad5d5271561da5942cc3796336faff);
+            
+        
+
+        marker_b1968e2450ce639c9f551a2b2c95bb14.bindPopup(popup_257306e414ff014637dc225d150d2f79)
+        ;
+
+        
+    
+    
+            var marker_9d53c7ec763b50911006be7b1fdb6cba = L.marker(
+                [-23.5743217, -46.6882513],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_228c5461af8f45867d8f4b292f709823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6619decb38124985ecd92bc4074566ca = $(`<div id="html_6619decb38124985ecd92bc4074566ca" style="width: 100.0%; height: 100.0%;">Nome: GK Condomínios<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_228c5461af8f45867d8f4b292f709823.setContent(html_6619decb38124985ecd92bc4074566ca);
+            
+        
+
+        marker_9d53c7ec763b50911006be7b1fdb6cba.bindPopup(popup_228c5461af8f45867d8f4b292f709823)
+        ;
+
+        
+    
+    
+            var marker_94406214c4de2fb5d7f84688e0940149 = L.marker(
+                [-23.606993, -46.66575020000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_24aad234946c652514d8244f42fd0f95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44d9775b4da3587b04260ac4fc4e3701 = $(`<div id="html_44d9775b4da3587b04260ac4fc4e3701" style="width: 100.0%; height: 100.0%;">Nome: Atlântica Imobiliária Administração<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_24aad234946c652514d8244f42fd0f95.setContent(html_44d9775b4da3587b04260ac4fc4e3701);
+            
+        
+
+        marker_94406214c4de2fb5d7f84688e0940149.bindPopup(popup_24aad234946c652514d8244f42fd0f95)
+        ;
+
+        
+    
+    
+            var marker_92b893d1e1336dd25a20b9b2b970f03c = L.marker(
+                [-23.5770118, -46.710483],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_aae0f8eeed1d27cac8c58541e126f515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f39bf58d409556dfbd25ca974aa1ede9 = $(`<div id="html_f39bf58d409556dfbd25ca974aa1ede9" style="width: 100.0%; height: 100.0%;">Nome: Marques Construtora | Apartamentos Morumbi | Lançamentos | Visite o Decorado<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_aae0f8eeed1d27cac8c58541e126f515.setContent(html_f39bf58d409556dfbd25ca974aa1ede9);
+            
+        
+
+        marker_92b893d1e1336dd25a20b9b2b970f03c.bindPopup(popup_aae0f8eeed1d27cac8c58541e126f515)
+        ;
+
+        
+    
+    
+            var marker_c5c1bedbee15f695082521561f5dfec2 = L.marker(
+                [-23.5604607, -46.64356],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_897ef02764c56f409d1505ae36ca139e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ad2185fce886838ad353e17452bcf0a = $(`<div id="html_6ad2185fce886838ad353e17452bcf0a" style="width: 100.0%; height: 100.0%;">Nome: Dicon Imobiliária<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_897ef02764c56f409d1505ae36ca139e.setContent(html_6ad2185fce886838ad353e17452bcf0a);
+            
+        
+
+        marker_c5c1bedbee15f695082521561f5dfec2.bindPopup(popup_897ef02764c56f409d1505ae36ca139e)
+        ;
+
+        
+    
+    
+            var marker_0fa7bf729b6344d51a731987994907ce = L.marker(
+                [-23.4353199, -46.71802900000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_673fe4980586a48e992d824eb4571560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b51ddb43366ab92f69c21d369c0bcd2 = $(`<div id="html_7b51ddb43366ab92f69c21d369c0bcd2" style="width: 100.0%; height: 100.0%;">Nome: Taipas Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_673fe4980586a48e992d824eb4571560.setContent(html_7b51ddb43366ab92f69c21d369c0bcd2);
+            
+        
+
+        marker_0fa7bf729b6344d51a731987994907ce.bindPopup(popup_673fe4980586a48e992d824eb4571560)
+        ;
+
+        
+    
+    
+            var marker_edfcdbc906a71f2e49ca52455635c40a = L.marker(
+                [-23.5225425, -46.6619421],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_621399eca45e0a248f47014a00f0ea05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9630ffbd661527a99ee258738fa314b = $(`<div id="html_d9630ffbd661527a99ee258738fa314b" style="width: 100.0%; height: 100.0%;">Nome: Ordem dos Advogados<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_621399eca45e0a248f47014a00f0ea05.setContent(html_d9630ffbd661527a99ee258738fa314b);
+            
+        
+
+        marker_edfcdbc906a71f2e49ca52455635c40a.bindPopup(popup_621399eca45e0a248f47014a00f0ea05)
+        ;
+
+        
+    
+    
+            var marker_058a63f28cf59596c2d190defde50777 = L.marker(
+                [-23.6433333, -46.5055556],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_5c18b610b28d3ab899a8587fa322d584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6490d057f590373490713db5584d749 = $(`<div id="html_e6490d057f590373490713db5584d749" style="width: 100.0%; height: 100.0%;">Nome: Igual Assessoria Imobiliária<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_5c18b610b28d3ab899a8587fa322d584.setContent(html_e6490d057f590373490713db5584d749);
+            
+        
+
+        marker_058a63f28cf59596c2d190defde50777.bindPopup(popup_5c18b610b28d3ab899a8587fa322d584)
+        ;
+
+        
+    
+    
+            var marker_6f06c3b2d5b592c3057678fe1cd9a161 = L.marker(
+                [-23.6282967, -46.73761440000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_695fb1f5997e1252dd6456acd08cbd2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21585a109df4959914a15b70b1a5de0a = $(`<div id="html_21585a109df4959914a15b70b1a5de0a" style="width: 100.0%; height: 100.0%;">Nome: JSI - Jardim Sul Imobiliária no Morumbi, Venda de imóveis no Morumbi e Panamby<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_695fb1f5997e1252dd6456acd08cbd2d.setContent(html_21585a109df4959914a15b70b1a5de0a);
+            
+        
+
+        marker_6f06c3b2d5b592c3057678fe1cd9a161.bindPopup(popup_695fb1f5997e1252dd6456acd08cbd2d)
+        ;
+
+        
+    
+    
+            var marker_df2990b271543db47e81e7c18ed05e51 = L.marker(
+                [-23.5905562, -46.66472719999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_9f6db035ff8c5b959215c4eced88c9f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e6a8ae9301633c13d7b2225ccd09d22 = $(`<div id="html_5e6a8ae9301633c13d7b2225ccd09d22" style="width: 100.0%; height: 100.0%;">Nome: Abyara Planejamento Imobiliário<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_9f6db035ff8c5b959215c4eced88c9f7.setContent(html_5e6a8ae9301633c13d7b2225ccd09d22);
+            
+        
+
+        marker_df2990b271543db47e81e7c18ed05e51.bindPopup(popup_9f6db035ff8c5b959215c4eced88c9f7)
+        ;
+
+        
+    
+    
+            var marker_f1582dfb0ea9f4d72558ae92c2d726e6 = L.marker(
+                [-23.6012843, -46.6735142],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_1aac03b902e97a196ff9bc1ae00700ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_417ecfadb9f17ee27b5cfa76bd5233e2 = $(`<div id="html_417ecfadb9f17ee27b5cfa76bd5233e2" style="width: 100.0%; height: 100.0%;">Nome: Colima Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_1aac03b902e97a196ff9bc1ae00700ae.setContent(html_417ecfadb9f17ee27b5cfa76bd5233e2);
+            
+        
+
+        marker_f1582dfb0ea9f4d72558ae92c2d726e6.bindPopup(popup_1aac03b902e97a196ff9bc1ae00700ae)
+        ;
+
+        
+    
+    
+            var marker_5bda0702d0bdc449a296ba4570114b80 = L.marker(
+                [-23.70874299999999, -46.4067166],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_a9f8c0fd4e19b9beee9205e25d8fb048 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8eccbf306ee035e1fc97116955e0bf = $(`<div id="html_8f8eccbf306ee035e1fc97116955e0bf" style="width: 100.0%; height: 100.0%;">Nome: Quadrimark<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_a9f8c0fd4e19b9beee9205e25d8fb048.setContent(html_8f8eccbf306ee035e1fc97116955e0bf);
+            
+        
+
+        marker_5bda0702d0bdc449a296ba4570114b80.bindPopup(popup_a9f8c0fd4e19b9beee9205e25d8fb048)
+        ;
+
+        
+    
+    
+            var marker_8b51c0c04635be8a3c7b8a9d45a2b6e9 = L.marker(
+                [-23.58993319999999, -46.6692673],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_c65336ddf3e1548ecf4d2ef122500770 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_265edb145f0da3483f63227e398acd1d = $(`<div id="html_265edb145f0da3483f63227e398acd1d" style="width: 100.0%; height: 100.0%;">Nome: Coelho da Fonseca Vila Nova Conceição<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_c65336ddf3e1548ecf4d2ef122500770.setContent(html_265edb145f0da3483f63227e398acd1d);
+            
+        
+
+        marker_8b51c0c04635be8a3c7b8a9d45a2b6e9.bindPopup(popup_c65336ddf3e1548ecf4d2ef122500770)
+        ;
+
+        
+    
+    
+            var marker_7453c350ef584e2c33bb3fda031e5f45 = L.marker(
+                [-23.5132957, -46.5845695],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_57c4540f6da711d3a07c318b00cd7929 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c06560b938666f960382e46ba4f1e510 = $(`<div id="html_c06560b938666f960382e46ba4f1e510" style="width: 100.0%; height: 100.0%;">Nome: NOVOLAR Real Estate - Agency Headquarters - Villa Maria<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_57c4540f6da711d3a07c318b00cd7929.setContent(html_c06560b938666f960382e46ba4f1e510);
+            
+        
+
+        marker_7453c350ef584e2c33bb3fda031e5f45.bindPopup(popup_57c4540f6da711d3a07c318b00cd7929)
+        ;
+
+        
+    
+    
+            var marker_b0f30168b290c4dca09b89847046b21f = L.marker(
+                [-23.5309916, -46.6379112],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_6540c5d41371e986cc48b6c7d5cd6ebe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae6cac8ad54c3cdd3ff2b32d8795a80 = $(`<div id="html_7ae6cac8ad54c3cdd3ff2b32d8795a80" style="width: 100.0%; height: 100.0%;">Nome: Sinai Imobiliária<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_6540c5d41371e986cc48b6c7d5cd6ebe.setContent(html_7ae6cac8ad54c3cdd3ff2b32d8795a80);
+            
+        
+
+        marker_b0f30168b290c4dca09b89847046b21f.bindPopup(popup_6540c5d41371e986cc48b6c7d5cd6ebe)
+        ;
+
+        
+    
+    
+            var marker_a47de0265d9ff8227d11472b040acc86 = L.marker(
+                [-23.6124175, -46.66918889999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_d04f3528f1c79e7d0ad4e0ff9fdb419b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eddc0a6b7d354a25548892d9aa910a0b = $(`<div id="html_eddc0a6b7d354a25548892d9aa910a0b" style="width: 100.0%; height: 100.0%;">Nome: Mario Dal Maso<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_d04f3528f1c79e7d0ad4e0ff9fdb419b.setContent(html_eddc0a6b7d354a25548892d9aa910a0b);
+            
+        
+
+        marker_a47de0265d9ff8227d11472b040acc86.bindPopup(popup_d04f3528f1c79e7d0ad4e0ff9fdb419b)
+        ;
+
+        
+    
+    
+            var marker_e70cb8cfc599b2f4aa97d7f0918dccdc = L.marker(
+                [-23.7187063, -46.57391990000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_730c4b416751ee129eb71420de2d310b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dddc3739568518df7479b0f761f45ac = $(`<div id="html_5dddc3739568518df7479b0f761f45ac" style="width: 100.0%; height: 100.0%;">Nome: Pássaros Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_730c4b416751ee129eb71420de2d310b.setContent(html_5dddc3739568518df7479b0f761f45ac);
+            
+        
+
+        marker_e70cb8cfc599b2f4aa97d7f0918dccdc.bindPopup(popup_730c4b416751ee129eb71420de2d310b)
+        ;
+
+        
+    
+    
+            var marker_9db41b0e539bfacae190955d6ece6e27 = L.marker(
+                [-23.5481162, -46.6420215],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_f90c54f665d061b8a75b749684ca191a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_486eea15b3ad3f16a05946a7127d8d7b = $(`<div id="html_486eea15b3ad3f16a05946a7127d8d7b" style="width: 100.0%; height: 100.0%;">Nome: GoSoft<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_f90c54f665d061b8a75b749684ca191a.setContent(html_486eea15b3ad3f16a05946a7127d8d7b);
+            
+        
+
+        marker_9db41b0e539bfacae190955d6ece6e27.bindPopup(popup_f90c54f665d061b8a75b749684ca191a)
+        ;
+
+        
+    
+    
+            var marker_07414bd38edfa8b3c1652db17ddd5c8b = L.marker(
+                [-23.50221490000001, -46.6303286],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_ef0815b386d4e6b5a78d8cc7a6eddc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809fc7cb78d8a76069815da308a84508 = $(`<div id="html_809fc7cb78d8a76069815da308a84508" style="width: 100.0%; height: 100.0%;">Nome: Maxtal Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_ef0815b386d4e6b5a78d8cc7a6eddc8e.setContent(html_809fc7cb78d8a76069815da308a84508);
+            
+        
+
+        marker_07414bd38edfa8b3c1652db17ddd5c8b.bindPopup(popup_ef0815b386d4e6b5a78d8cc7a6eddc8e)
+        ;
+
+        
+    
+    
+            var marker_1bcff9a084d61712529188e841a6a967 = L.marker(
+                [-23.5744081, -46.6893505],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_24184d46d9686a32ff9850395d55ec9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37df874194450ef529a98348c2d8bf66 = $(`<div id="html_37df874194450ef529a98348c2d8bf66" style="width: 100.0%; height: 100.0%;">Nome: BAETA<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_24184d46d9686a32ff9850395d55ec9a.setContent(html_37df874194450ef529a98348c2d8bf66);
+            
+        
+
+        marker_1bcff9a084d61712529188e841a6a967.bindPopup(popup_24184d46d9686a32ff9850395d55ec9a)
+        ;
+
+        
+    
+    
+            var marker_b8102474220f31add625fa4064bfe207 = L.marker(
+                [-23.5884529, -46.6730685],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_7f1c85224bcf0fd5a7edd6656bb983bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_400fdfbd17a84d2d8270f8f4efe2bb0c = $(`<div id="html_400fdfbd17a84d2d8270f8f4efe2bb0c" style="width: 100.0%; height: 100.0%;">Nome: São Carlos Empreendimentos e Participações S.A.<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_7f1c85224bcf0fd5a7edd6656bb983bd.setContent(html_400fdfbd17a84d2d8270f8f4efe2bb0c);
+            
+        
+
+        marker_b8102474220f31add625fa4064bfe207.bindPopup(popup_7f1c85224bcf0fd5a7edd6656bb983bd)
+        ;
+
+        
+    
+    
+            var marker_604f6b58a8bc28004bf6edec2a237db5 = L.marker(
+                [-23.7058507, -46.5473498],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_5f6ffc0a880cc1bc1015d7cb09440d7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_365fabc43aa7613b74bdce1032fd1c4f = $(`<div id="html_365fabc43aa7613b74bdce1032fd1c4f" style="width: 100.0%; height: 100.0%;">Nome: Neon Imóveis - Administradora de Condomínios São Bernardo do Campo<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_5f6ffc0a880cc1bc1015d7cb09440d7c.setContent(html_365fabc43aa7613b74bdce1032fd1c4f);
+            
+        
+
+        marker_604f6b58a8bc28004bf6edec2a237db5.bindPopup(popup_5f6ffc0a880cc1bc1015d7cb09440d7c)
+        ;
+
+        
+    
+    
+            var marker_3507192c24a9b4d8274829a7cf45ffde = L.marker(
+                [-23.6305721, -46.70635569999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_d5167d31da66a67098fb26e81d237946 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_365f65cc771fa38f0c1171aec311a507 = $(`<div id="html_365f65cc771fa38f0c1171aec311a507" style="width: 100.0%; height: 100.0%;">Nome: Buildings<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_d5167d31da66a67098fb26e81d237946.setContent(html_365f65cc771fa38f0c1171aec311a507);
+            
+        
+
+        marker_3507192c24a9b4d8274829a7cf45ffde.bindPopup(popup_d5167d31da66a67098fb26e81d237946)
+        ;
+
+        
+    
+    
+            var marker_09425f26bd1685817603d156102cc6d1 = L.marker(
+                [-23.6214168, -46.6396707],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_1b3cc3203baf6782fa936fed05ff41c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_213b29b71fe32b2b13df3de2cdb28088 = $(`<div id="html_213b29b71fe32b2b13df3de2cdb28088" style="width: 100.0%; height: 100.0%;">Nome: Nova São Paulo - Unidade Saúde 1<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_1b3cc3203baf6782fa936fed05ff41c0.setContent(html_213b29b71fe32b2b13df3de2cdb28088);
+            
+        
+
+        marker_09425f26bd1685817603d156102cc6d1.bindPopup(popup_1b3cc3203baf6782fa936fed05ff41c0)
+        ;
+
+        
+    
+    
+            var marker_2c12dcabfe5c461e3f0a3b631a71cbc3 = L.marker(
+                [-23.6529097, -46.8559789],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_bfbbb11b05e94d2521d80889aa6d4395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1353f98bce617558ded87c70223fe74 = $(`<div id="html_e1353f98bce617558ded87c70223fe74" style="width: 100.0%; height: 100.0%;">Nome: Imobiliária Porta Nova - Embu das Artes<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_bfbbb11b05e94d2521d80889aa6d4395.setContent(html_e1353f98bce617558ded87c70223fe74);
+            
+        
+
+        marker_2c12dcabfe5c461e3f0a3b631a71cbc3.bindPopup(popup_bfbbb11b05e94d2521d80889aa6d4395)
+        ;
+
+        
+    
+    
+            var marker_b647cc2963c03c4a02e744f9bbfd0b1a = L.marker(
+                [-23.6056782, -46.66549269999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_4f625031f4b548ca204efa07b812873f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2cfe65868f7f0d6a6a45c526e32a3a = $(`<div id="html_9d2cfe65868f7f0d6a6a45c526e32a3a" style="width: 100.0%; height: 100.0%;">Nome: BESP - Bolsa de Escritórios de São Paulo<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_4f625031f4b548ca204efa07b812873f.setContent(html_9d2cfe65868f7f0d6a6a45c526e32a3a);
+            
+        
+
+        marker_b647cc2963c03c4a02e744f9bbfd0b1a.bindPopup(popup_4f625031f4b548ca204efa07b812873f)
+        ;
+
+        
+    
+    
+            var marker_da5dad4e34eee479295d6c187d7d8ab9 = L.marker(
+                [-23.6040751, -46.66340319999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_8d66bcbff6539b04763b6b40f6a3e8fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f7da5e466997576e4a280752bd34f2 = $(`<div id="html_27f7da5e466997576e4a280752bd34f2" style="width: 100.0%; height: 100.0%;">Nome: Abyara<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_8d66bcbff6539b04763b6b40f6a3e8fa.setContent(html_27f7da5e466997576e4a280752bd34f2);
+            
+        
+
+        marker_da5dad4e34eee479295d6c187d7d8ab9.bindPopup(popup_8d66bcbff6539b04763b6b40f6a3e8fa)
+        ;
+
+        
+    
+    
+            var marker_14e8cf3f529849a7ff5a0c85f7caecd4 = L.marker(
+                [-23.673216, -46.5620055],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_2ce0f0ae7ffb51b44ffe36bebd2f2150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e66ff4a59ad8418f25e5bdfad0588dad = $(`<div id="html_e66ff4a59ad8418f25e5bdfad0588dad" style="width: 100.0%; height: 100.0%;">Nome: LUNA IMÓVEIS ASSESSORIA IMOBILIÁRIA<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_2ce0f0ae7ffb51b44ffe36bebd2f2150.setContent(html_e66ff4a59ad8418f25e5bdfad0588dad);
+            
+        
+
+        marker_14e8cf3f529849a7ff5a0c85f7caecd4.bindPopup(popup_2ce0f0ae7ffb51b44ffe36bebd2f2150)
+        ;
+
+        
+    
+    
+            var marker_83109fccef04cf3d7a3c503de3707706 = L.marker(
+                [-23.5737295, -46.5650045],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_9c229445b3f6eda8b718c049cfe14c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4d728201c9794d407ea3c6d2a33f4d8 = $(`<div id="html_d4d728201c9794d407ea3c6d2a33f4d8" style="width: 100.0%; height: 100.0%;">Nome: Alfonso Rey Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_9c229445b3f6eda8b718c049cfe14c38.setContent(html_d4d728201c9794d407ea3c6d2a33f4d8);
+            
+        
+
+        marker_83109fccef04cf3d7a3c503de3707706.bindPopup(popup_9c229445b3f6eda8b718c049cfe14c38)
+        ;
+
+        
+    
+    
+            var marker_d5f3da5dc689b9e0ab5ff70549fce58a = L.marker(
+                [-23.6256873, -46.9819574],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_5d73142c8fe152d12e1fd199fe55995a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0dabf41dbf089d1f0d32d7e7f239596 = $(`<div id="html_f0dabf41dbf089d1f0d32d7e7f239596" style="width: 100.0%; height: 100.0%;">Nome: Centro Comercial Boulevard Boucault<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_5d73142c8fe152d12e1fd199fe55995a.setContent(html_f0dabf41dbf089d1f0d32d7e7f239596);
+            
+        
+
+        marker_d5f3da5dc689b9e0ab5ff70549fce58a.bindPopup(popup_5d73142c8fe152d12e1fd199fe55995a)
+        ;
+
+        
+    
+    
+            var marker_8c29bfbaee8c830ce0223b90cef998e8 = L.marker(
+                [-23.54897390000001, -46.3151603],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_4fb4f7e6425dc7de6277f49c18228fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_166c758ba3d78a4fee4c3b005465716d = $(`<div id="html_166c758ba3d78a4fee4c3b005465716d" style="width: 100.0%; height: 100.0%;">Nome: CONCRETUAL Negocios imobiliários<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_4fb4f7e6425dc7de6277f49c18228fa2.setContent(html_166c758ba3d78a4fee4c3b005465716d);
+            
+        
+
+        marker_8c29bfbaee8c830ce0223b90cef998e8.bindPopup(popup_4fb4f7e6425dc7de6277f49c18228fa2)
+        ;
+
+        
+    
+    
+            var marker_21f9b030839c79b3b34bb35910b3ac91 = L.marker(
+                [-23.5456715, -46.64161420000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_b47526d71a7bccf4f8431d8bc649fe5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd69c82c00756ca599af22d0c2c48c05 = $(`<div id="html_fd69c82c00756ca599af22d0c2c48c05" style="width: 100.0%; height: 100.0%;">Nome: ASSOCIAÇÃO BRASILEIRA DE MUTUÁRIOS<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_b47526d71a7bccf4f8431d8bc649fe5d.setContent(html_fd69c82c00756ca599af22d0c2c48c05);
+            
+        
+
+        marker_21f9b030839c79b3b34bb35910b3ac91.bindPopup(popup_b47526d71a7bccf4f8431d8bc649fe5d)
+        ;
+
+        
+    
+    
+            var marker_b6fdd6f16918f7a575cb40352d34a16d = L.marker(
+                [-23.542756, -46.4498882],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_5999017b3e35b0892ef8c204deb794b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3334f52ffdfc4245ccdcc488bb0211a1 = $(`<div id="html_3334f52ffdfc4245ccdcc488bb0211a1" style="width: 100.0%; height: 100.0%;">Nome: JC IMÓVEIS BRASIL - Imobiliária em Itaquera - São Paulo<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_5999017b3e35b0892ef8c204deb794b9.setContent(html_3334f52ffdfc4245ccdcc488bb0211a1);
+            
+        
+
+        marker_b6fdd6f16918f7a575cb40352d34a16d.bindPopup(popup_5999017b3e35b0892ef8c204deb794b9)
+        ;
+
+        
+    
+    
+            var marker_a0ae250802f87a77eba256c185321497 = L.marker(
+                [-23.5285278, -46.7792232],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_23b0711945874cff3ced4113bc6a1bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2786a7dad512903ecd8c825288d92671 = $(`<div id="html_2786a7dad512903ecd8c825288d92671" style="width: 100.0%; height: 100.0%;">Nome: Nunes Imóveis Oficial<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_23b0711945874cff3ced4113bc6a1bd5.setContent(html_2786a7dad512903ecd8c825288d92671);
+            
+        
+
+        marker_a0ae250802f87a77eba256c185321497.bindPopup(popup_23b0711945874cff3ced4113bc6a1bd5)
+        ;
+
+        
+    
+    
+            var marker_8edc647d12c8d376d54aa887f9306c33 = L.marker(
+                [-23.6340174, -46.5576097],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_f2ec5eefa1db672718b353fc26d1787c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e70e086281b9b4e1b526c743f3f318a = $(`<div id="html_5e70e086281b9b4e1b526c743f3f318a" style="width: 100.0%; height: 100.0%;">Nome: Luciano Figueiredo Imóveis-imóveis em São Caetano-casa em São Caetano-apartamento em São Caetano-apartamento alto padrão<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_f2ec5eefa1db672718b353fc26d1787c.setContent(html_5e70e086281b9b4e1b526c743f3f318a);
+            
+        
+
+        marker_8edc647d12c8d376d54aa887f9306c33.bindPopup(popup_f2ec5eefa1db672718b353fc26d1787c)
+        ;
+
+        
+    
+    
+            var marker_36c95e5a5c785ee518bfe6807209340b = L.marker(
+                [-23.5377349, -46.676082],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_45405711be4d5fe745961153741e691c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de31ea129bd4bc5380df4737eef8554a = $(`<div id="html_de31ea129bd4bc5380df4737eef8554a" style="width: 100.0%; height: 100.0%;">Nome: Zimmermann Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_45405711be4d5fe745961153741e691c.setContent(html_de31ea129bd4bc5380df4737eef8554a);
+            
+        
+
+        marker_36c95e5a5c785ee518bfe6807209340b.bindPopup(popup_45405711be4d5fe745961153741e691c)
+        ;
+
+        
+    
+    
+            var marker_2a58efb2119cc1f8b5c8340df019dc31 = L.marker(
+                [-23.56092, -46.63213859999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_6b5dc65ae78a23938c3ca6c9dc974e29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636aa3f596c247c8d4832f0a298ce552 = $(`<div id="html_636aa3f596c247c8d4832f0a298ce552" style="width: 100.0%; height: 100.0%;">Nome: Otapan Empreendimentos Administração<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_6b5dc65ae78a23938c3ca6c9dc974e29.setContent(html_636aa3f596c247c8d4832f0a298ce552);
+            
+        
+
+        marker_2a58efb2119cc1f8b5c8340df019dc31.bindPopup(popup_6b5dc65ae78a23938c3ca6c9dc974e29)
+        ;
+
+        
+    
+    
+            var marker_951d1d0ffe5a745cd8195f84f4141f61 = L.marker(
+                [-23.5773846, -46.7410772],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_01248e14aaa0e3d09c6fc0b8fe6c1f2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_602090613e7dd9e963b99dddf29ee386 = $(`<div id="html_602090613e7dd9e963b99dddf29ee386" style="width: 100.0%; height: 100.0%;">Nome: Flórida Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_01248e14aaa0e3d09c6fc0b8fe6c1f2b.setContent(html_602090613e7dd9e963b99dddf29ee386);
+            
+        
+
+        marker_951d1d0ffe5a745cd8195f84f4141f61.bindPopup(popup_01248e14aaa0e3d09c6fc0b8fe6c1f2b)
+        ;
+
+        
+    
+    
+            var marker_73fe919b274e5a1fda12f02aedb5795c = L.marker(
+                [-23.6792623, -46.7109094],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_ec2fc4b921a3f3a1c111eb0293ca696c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4e0ff94adb88da77310786f48da970b = $(`<div id="html_e4e0ff94adb88da77310786f48da970b" style="width: 100.0%; height: 100.0%;">Nome: MaxxCasa Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_ec2fc4b921a3f3a1c111eb0293ca696c.setContent(html_e4e0ff94adb88da77310786f48da970b);
+            
+        
+
+        marker_73fe919b274e5a1fda12f02aedb5795c.bindPopup(popup_ec2fc4b921a3f3a1c111eb0293ca696c)
+        ;
+
+        
+    
+    
+            var marker_764b9d8f96af0862a710673493e9ce27 = L.marker(
+                [-23.5515674, -46.5436473],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_85ba2fa258974addbb3770f8c86658e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b56e3d78338d93f4e72c3f9a3d54f8e = $(`<div id="html_7b56e3d78338d93f4e72c3f9a3d54f8e" style="width: 100.0%; height: 100.0%;">Nome: Catita Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_85ba2fa258974addbb3770f8c86658e8.setContent(html_7b56e3d78338d93f4e72c3f9a3d54f8e);
+            
+        
+
+        marker_764b9d8f96af0862a710673493e9ce27.bindPopup(popup_85ba2fa258974addbb3770f8c86658e8)
+        ;
+
+        
+    
+    
+            var marker_5644136239897003e839caece7ccabb0 = L.marker(
+                [-23.3292333, -46.72463239999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_ec7d37f55abfe796b86a13b235e25616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76949cbe85b826166e53b56d76057ba6 = $(`<div id="html_76949cbe85b826166e53b56d76057ba6" style="width: 100.0%; height: 100.0%;">Nome: Grupo Habitaliza<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_ec7d37f55abfe796b86a13b235e25616.setContent(html_76949cbe85b826166e53b56d76057ba6);
+            
+        
+
+        marker_5644136239897003e839caece7ccabb0.bindPopup(popup_ec7d37f55abfe796b86a13b235e25616)
+        ;
+
+        
+    
+    
+            var marker_4cc99ede8b1fcd727176cdce9c483cc8 = L.marker(
+                [-23.5542738, -46.69016139999999],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_3c38e45ec721f0f767b40c58548f6d19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a7319055a282d28e53faec0dcf9d6e2 = $(`<div id="html_6a7319055a282d28e53faec0dcf9d6e2" style="width: 100.0%; height: 100.0%;">Nome: Imovelweb<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_3c38e45ec721f0f767b40c58548f6d19.setContent(html_6a7319055a282d28e53faec0dcf9d6e2);
+            
+        
+
+        marker_4cc99ede8b1fcd727176cdce9c483cc8.bindPopup(popup_3c38e45ec721f0f767b40c58548f6d19)
+        ;
+
+        
+    
+    
+            var marker_df8b3c9f5815e9abe1bde994ab9b6879 = L.marker(
+                [-23.576739, -46.48149420000001],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_7bf98c84982a4a6b3f5d87461916c7fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c1c3f610c30a41af1d4103ce7925719 = $(`<div id="html_1c1c3f610c30a41af1d4103ce7925719" style="width: 100.0%; height: 100.0%;">Nome: Imobiliária Romantini Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_7bf98c84982a4a6b3f5d87461916c7fa.setContent(html_1c1c3f610c30a41af1d4103ce7925719);
+            
+        
+
+        marker_df8b3c9f5815e9abe1bde994ab9b6879.bindPopup(popup_7bf98c84982a4a6b3f5d87461916c7fa)
+        ;
+
+        
+    
+    
+            var marker_0395ca6d951640ae01e971572e0e49c6 = L.marker(
+                [-23.53987840000001, -46.6556892],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_bef24f3d670fae9f591938609b01e120 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1643bf08d2b0ce8c7a3e8033380512c4 = $(`<div id="html_1643bf08d2b0ce8c7a3e8033380512c4" style="width: 100.0%; height: 100.0%;">Nome: Breno Homara Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_bef24f3d670fae9f591938609b01e120.setContent(html_1643bf08d2b0ce8c7a3e8033380512c4);
+            
+        
+
+        marker_0395ca6d951640ae01e971572e0e49c6.bindPopup(popup_bef24f3d670fae9f591938609b01e120)
+        ;
+
+        
+    
+    
+            var marker_7601c37b467567142070ade451d9af35 = L.marker(
+                [-23.5453036, -46.7633606],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_98cbc53e731a745006555f3079363a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c810cad889b0fed0510bef93d484510e = $(`<div id="html_c810cad889b0fed0510bef93d484510e" style="width: 100.0%; height: 100.0%;">Nome: Canadá Imóveis Filial Campesina<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_98cbc53e731a745006555f3079363a6b.setContent(html_c810cad889b0fed0510bef93d484510e);
+            
+        
+
+        marker_7601c37b467567142070ade451d9af35.bindPopup(popup_98cbc53e731a745006555f3079363a6b)
+        ;
+
+        
+    
+    
+            var marker_1ad3ee1d9c7c49cb9c293aeed6e8e266 = L.marker(
+                [-23.5481693, -46.4379394],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_e33aab1508b8f6d31203593d2f97957f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a7d69bc1a565bb0882c3f7d15e78a88 = $(`<div id="html_1a7d69bc1a565bb0882c3f7d15e78a88" style="width: 100.0%; height: 100.0%;">Nome: Imobiliária Serrano<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_e33aab1508b8f6d31203593d2f97957f.setContent(html_1a7d69bc1a565bb0882c3f7d15e78a88);
+            
+        
+
+        marker_1ad3ee1d9c7c49cb9c293aeed6e8e266.bindPopup(popup_e33aab1508b8f6d31203593d2f97957f)
+        ;
+
+        
+    
+    
+            var marker_078da0e45d62e273414aa13d6e98f268 = L.marker(
+                [-23.599897, -46.6015862],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_80be6a93ce309f7d876f912d62bef7cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e082bfa81a5b8d9f5e340dbb47e6dee2 = $(`<div id="html_e082bfa81a5b8d9f5e340dbb47e6dee2" style="width: 100.0%; height: 100.0%;">Nome: Jorge Taba - Consutoria de Imóveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_80be6a93ce309f7d876f912d62bef7cc.setContent(html_e082bfa81a5b8d9f5e340dbb47e6dee2);
+            
+        
+
+        marker_078da0e45d62e273414aa13d6e98f268.bindPopup(popup_80be6a93ce309f7d876f912d62bef7cc)
+        ;
+
+        
+    
+    
+            var marker_94112bef6b7e4677fe04ea1c1520a0b1 = L.marker(
+                [-23.5445023, -46.3131638],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_d784cdba891ed657afaf4e7a541ca0ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93399acb767df4d9273dfce294c4290f = $(`<div id="html_93399acb767df4d9273dfce294c4290f" style="width: 100.0%; height: 100.0%;">Nome: Concept Imóveis Imobiliária<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_d784cdba891ed657afaf4e7a541ca0ca.setContent(html_93399acb767df4d9273dfce294c4290f);
+            
+        
+
+        marker_94112bef6b7e4677fe04ea1c1520a0b1.bindPopup(popup_d784cdba891ed657afaf4e7a541ca0ca)
+        ;
+
+        
+    
+    
+            var marker_3e0a3352cb30fed260d1d7a49e591281 = L.marker(
+                [-23.6116036, -46.8358987],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_ed2ba8d62bf17e28e9bc4304956743b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ed9809de69824b9cf7c85b8443233ab = $(`<div id="html_9ed9809de69824b9cf7c85b8443233ab" style="width: 100.0%; height: 100.0%;">Nome: Aciera Imoveis<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_ed2ba8d62bf17e28e9bc4304956743b3.setContent(html_9ed9809de69824b9cf7c85b8443233ab);
+            
+        
+
+        marker_3e0a3352cb30fed260d1d7a49e591281.bindPopup(popup_ed2ba8d62bf17e28e9bc4304956743b3)
+        ;
+
+        
+    
+    
+            var marker_2f8abcf82c42b71b08d02905e062d49c = L.marker(
+                [-23.6165194, -46.573108],
+                {}
+            ).addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+    
+        var popup_98c79a69d10b4ea8200456aa342f05b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbde21e10edc116c546976019c96eddf = $(`<div id="html_dbde21e10edc116c546976019c96eddf" style="width: 100.0%; height: 100.0%;">Nome: IMOBILIÁRIA CINERAMA<br>Telefone: Telefone não disponível<br>Website: Website não disponível</div>`)[0];
+                popup_98c79a69d10b4ea8200456aa342f05b4.setContent(html_dbde21e10edc116c546976019c96eddf);
+            
+        
+
+        marker_2f8abcf82c42b71b08d02905e062d49c.bindPopup(popup_98c79a69d10b4ea8200456aa342f05b4)
+        ;
+
+        
+    
+    
+            tile_layer_ec34fc437675f8d6f42b5f26d7193030.addTo(map_c7b9a002d9be596916c187d233c24167);
+        
+</script>
+</html>
